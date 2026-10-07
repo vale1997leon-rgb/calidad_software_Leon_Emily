@@ -1,3 +1,6 @@
+# Calidad del Software 
+# Autor: Emily Leon 
+
 # Precurso de Calidad de Software
 
 Este repositorio contiene los conceptos básicos de Calidad de Software y las pruebas utilizadas para verificar que una aplicación cumple sus requisitos y funciona correctamente.
