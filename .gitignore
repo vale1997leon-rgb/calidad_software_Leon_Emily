@@ -1,0 +1,296 @@
+# ============================================================
+# Node.js / React / NestJS / TypeScript
+# .gitignore recursivo para proyectos y monorepos
+# ============================================================
+
+
+# ============================================================
+# DEPENDENCIAS
+# ============================================================
+
+**/node_modules/
+**/.pnp/
+**/.pnp.js
+
+
+# ============================================================
+# VARIABLES DE ENTORNO / SECRETOS
+# ============================================================
+
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+!**/.env.template
+
+
+# ============================================================
+# LOGS
+# ============================================================
+
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+
+
+# ============================================================
+# TYPESCRIPT / COMPILACIÓN
+# ============================================================
+
+**/dist/
+**/build/
+**/out/
+**/.tsbuildinfo
+**/*.tsbuildinfo
+
+
+# ============================================================
+# REACT / NEXT.JS / VITE
+# ============================================================
+
+**/.next/
+**/.nuxt/
+**/.output/
+**/.vite/
+**/.cache/
+**/.turbo/
+**/.parcel-cache/
+
+
+# ============================================================
+# NESTJS
+# ============================================================
+
+**/.nestjs/
+
+
+# ============================================================
+# JEST - TESTS UNITARIOS
+# ============================================================
+
+# Coverage generado por Jest
+**/coverage/
+
+# Cache de Jest
+**/.jest/
+**/.jest-cache/
+**/jest-cache/
+
+# Resultados de Jest
+**/jest-results/
+**/test-results/
+
+# Reportes de Jest
+**/jest-report/
+**/junit.xml
+**/jest-junit.xml
+
+# Cache de herramientas
+**/.nyc_output/
+
+
+# ============================================================
+# E2E - TESTS END TO END
+# ============================================================
+
+# Directorios comunes de E2E
+**/e2e-results/
+**/e2e-results/
+**/e2e-report/
+**/e2e-reports/
+
+# Resultados genéricos
+**/test-results/
+
+# Screenshots generados por tests
+**/screenshots/
+**/test-screenshots/
+
+# Videos generados por E2E
+**/videos/
+**/test-videos/
+
+
+# ============================================================
+# PLAYWRIGHT - E2E
+# ============================================================
+
+**/playwright-report/
+**/playwright/.cache/
+**/playwright-results/
+**/blob-report/
+
+# Playwright screenshots/videos/traces
+**/test-results/
+
+# Si Playwright genera traces
+**/*.zip
+
+
+# ============================================================
+# CYPRESS - E2E
+# ============================================================
+
+**/cypress/videos/
+**/cypress/screenshots/
+**/cypress/downloads/
+
+# Cypress cache
+**/.cy/
+**/cypress/.cache/
+
+
+# ============================================================
+# SELENIUM / WEBDRIVER
+# ============================================================
+
+**/selenium/
+**/webdriver/
+**/webdriver-results/
+
+
+# ============================================================
+# TESTING / MOCKS GENERADOS
+# ============================================================
+
+**/__snapshots__/
+**/*.snap
+
+# Datos temporales generados durante tests
+**/fixtures/generated/
+**/test-data/generated/
+**/mock-data/generated/
+
+
+# ============================================================
+# ESLINT / PRETTIER / STYLELINT
+# ============================================================
+
+**/.eslintcache
+**/.stylelintcache
+**/.prettiercache
+
+
+# ============================================================
+# PACKAGE MANAGERS
+# ============================================================
+
+**/.npm/
+**/.pnpm-store/
+**/.yarn/cache/
+**/.yarn/unplugged/
+**/.yarn/build-state.yml
+**/.yarn/install-state.gz
+
+
+# ============================================================
+# IDE / EDITORES
+# ============================================================
+
+**/.idea/
+**/.vscode/
+**/*.code-workspace
+**/.history/
+**/.fleet/
+
+
+# ============================================================
+# SISTEMA OPERATIVO
+# ============================================================
+
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+
+
+# ============================================================
+# ARCHIVOS TEMPORALES
+# ============================================================
+
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*.swo
+**/*~
+**/.tmp/
+**/tmp/
+**/temp/
+
+
+# ============================================================
+# BASES DE DATOS LOCALES
+# ============================================================
+
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/data/
+**/.data/
+
+
+# ============================================================
+# DOCKER
+# ============================================================
+
+**/docker-compose.override.yml
+
+
+# ============================================================
+# DEPLOY / CLOUD
+# ============================================================
+
+**/.serverless/
+**/.serverless_plugins/
+**/.webpack/
+**/.vercel/
+**/.netlify/
+
+
+# ============================================================
+# CERTIFICADOS / CLAVES PRIVADAS
+# ============================================================
+
+**/*.pem
+**/*.key
+**/*.crt
+**/*.p12
+**/*.pfx
+
+!**/*.example.pem
+!**/*.example.key
+
+
+# ============================================================
+# GRAPHQL / CÓDIGO GENERADO
+# ============================================================
+
+**/generated/
+**/__generated__/
+
+
+# ============================================================
+# OTROS ARCHIVOS GENERADOS
+# ============================================================
+
+**/*.generated.ts
+**/*.generated.js
+
+
+# ============================================================
+# LOCKFILES
+# ============================================================
+#
+# NO ignorar estos archivos:
+#
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+#
+# Deben mantenerse versionados.
